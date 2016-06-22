@@ -84,9 +84,3 @@ exports.tokens.rewrite = lexer.rewrite
 
 # Export AST constructors.
 exports.ast <<<< parser.yy
-
-if require.extensions
-    (require './node') exports
-else
-    # Attach `require` for debugging.
-    exports <<< {require}
