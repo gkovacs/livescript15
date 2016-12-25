@@ -1,6 +1,6 @@
 {
   "name": "livescript15",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "LiveScript is a language which compiles to JavaScript. It has a straightforward mapping to JavaScript and allows you to write expressive code devoid of repetitive boilerplate. While LiveScript adds many features to assist in functional style programming, it also has many improvements for object oriented and imperative programming.",
   "keywords": [
     "language",
@@ -45,13 +45,13 @@
   },
   "dependencies": {
     "prelude-ls": "~1.1.2",
-    "optionator": "~0.8.1",
     "source-map": "^0.5.6"
   },
   "devDependencies": {
     "jison": "0.4.17",
     "uglify-js": "~2.6.2",
     "istanbul": "~0.4.3",
-    "browserify": "^13.0.1"
+    "browserify": "^13.0.1",
+    "optionator": "~0.8.1"
   }
 }
